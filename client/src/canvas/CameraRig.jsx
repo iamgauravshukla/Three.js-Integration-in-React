@@ -10,6 +10,7 @@ const CameraRig = ({ children }) => {
   useFrame((state, delta) => {
     const isBreakPoint = window.innerWidth <= 1260;
     const isMobile = window.innerWidth <= 600;
+    
     //   setting initial position of model
 
     let targetPosition = [-0.4, 0, 2];
